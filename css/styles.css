@@ -181,6 +181,24 @@ body{
 .whatisboxit ol{
 	display: inline-block;
 }
+.howcan {
+	background-color: #19407A;
+	height: 400px;
+}
+#how_spacer {
+	height: 80px;
+}
+.howcan h2 {
+	/*float: right;*/
+	text-align: right;
+	font-size: 48px;
+	margin-top: 0px;
+}
+.howcan p {
+	/*display: inline-block;*/
+	float: right;
+	width: 500px;
+}
 @media (max-width: 975px) and (min-width: 850px){
 	#topNav li a {
 		font-size: 14px;
