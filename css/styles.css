@@ -1,0 +1,155 @@
+.main{
+	-webkit-transition-duration: 0.6s;
+	box-sizing: border-box;
+	display: block;
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+	height: 132px;
+	line-height: 16px;
+	margin-bottom: 440px;
+	margin-left: 220px;
+	margin-right: 50px;
+	margin-top: 50px;
+	min-width: 300px;
+	/*position: relative;*/
+	transition-duration: 0.6s;
+}
+.mainContainer{
+	margin:0 0 0 0;
+	height: 100%;
+	/*position: relative;*/
+
+}
+.firstSection{
+	position: relative;
+	height:	100%;
+
+}
+.dotOverlay{
+	margin: 0 0 0 0;
+	top: 0px;
+	height: 500px;
+	width: 100%;
+	position: absolute;
+
+	background: url(../assets/overlay-dots.png) repeat;
+
+
+}
+.topBar{
+	background: url(../assets/overlay-dots.png) repeat;
+	padding: 0 1% 0 1%;
+	display: block;
+
+}
+body{
+	margin: 0 0 0 0;
+	font-family: Raleway, sans-serif;
+}
+.form_container #formSubmit{
+	float: right;
+}
+.form_container{
+	padding: 15px 15px 15px 15px;
+	position: absolute;
+	bottom: 0px;
+	margin: 0 0 3% 3%;
+	background: rgba(0, 0, 0, 0.701961);
+	border-radius: 4px; 
+}
+.form_container #phoneInput{
+	display: block;
+}
+.form_container h3{
+	color: white;
+	text-transform: uppercase;
+	margin: 0 0 1em 0;
+
+
+}
+.form_container p{
+	/*float: right;*/
+	right: 4px;
+}
+.form_container form input{
+
+	background: none;
+	border: 0px solid #333;
+	border-bottom: 1px dotted #fff !important;
+	padding: 0px 0 4px 2px;
+	font-size: 16px;
+	color: #fff;
+	margin: 12px 0 0 0;
+
+
+}
+.form_container form p{
+	color: white;
+}
+#logo{
+
+	height:100px;
+	width: 250px;
+}
+#topNav li a{
+
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: uppercase;
+	font-family: 'Roboto', sans-serif;
+	margin: 0px 20px;
+	font-weight: bold;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	text-decoration: none
+}
+#topNav li a:hover{
+
+	color: rgb(24, 50, 97);
+}
+
+#topNav li{
+	box-sizing: border-box;
+	color: rgb(68, 68, 68);
+	display: block;
+	float: left;
+	font-family: verdana, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	height: 19px;
+	line-height: normal;
+	list-style-image: none;
+	list-style-position: outside;
+	list-style-type: none;
+	margin-right: 10px;
+	text-align: left;
+}
+#topNav{
+
+	color: rgb(68, 68, 68);
+	display: block;
+	float: right;
+	font-family: verdana, sans-serif;
+	font-size: 20px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	height: 19px;
+	line-height: normal;
+	list-style-image: none;
+	list-style-position: outside;
+	list-style-type: none;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 40px;
+	margin-top: 2%;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+
+
+}

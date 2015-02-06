@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>BoxIT | CrowdFunding</title>
+  <link href="bower_components/BigVideo.js/css/bigvideo.css"rel="stylesheet">
+  <link href="css/styles.css"rel="stylesheet">
+  <script src="bower_components/jquery/dist/jquery.js"></script>
+  <script src="bower_components/jquery-ui/jquery-ui.js"></script>
+  <script src="bower_components/video.js/dist/video-js/video.js"></script>
+  <script src="bower_components/eventEmitter/EventEmitter.js"></script>
+  <script src="bower_components/eventie/eventie.js"></script>
+  <script src="bower_components/BigVideo.js/lib/bigvideo.js"></script>
+  <script src="bower_components/imagesloaded/imagesloaded.js"></script>
+</head>
+<body>
+	<div class="topBar">
+		<img id="logo" style="height:100px;width: 150px" src="assets/test.png">
+		<ul id="topNav">
+			<li>
+				<a href="">What is BoxIT?</a>
+			</li>
+			<li>
+				<a href="">How can I get involved</a>
+			</li>
+			<li>
+				<a href="">The Team</a>
+			</li>
+			<li>
+				<a href="">Contact</a>
+			</li>
+		</ul>
+	</div>
+
+	<div class="mainContainer">
+
+
+			<div class="firstSection">
+				<div class="video-wrap">
+
+				</div>
+				<div class="dotOverlay">
+					<div class="form_container">
+					<h3>Join our mission! Sign-up to follow us here!</h1>
+			  			<form method="post" action="mail.php">
+						    	<input type="text" class="textbox" placeholder="Name">
+						    	<input type="hidden" name="From Crowd Funding Page - PAUL!">
+						    	<input type="text" class="textbox" value="Email">
+						    	<input type="text" id="phoneInput"class="textbox" value="Phone">
+						    	<p class="privacyNotice"> **All information is private and never distributed.</p>										
+									<div class="clear"> </div>
+							    <div>
+							    	<!-- <textarea value="Message:"">Message - In general terms, describe your business and goals you hope we can help with.</textarea> -->
+							    </div>
+						    	<!-- <input type="text" class="textbox" value=" Name""> -->
+
+							<div class="span4">
+						    	<a href="#">
+						    		<i><input id="formSubmit" type="submit" value="Submit"></i>
+						    		<div class="clear"></div>
+						    	</a>
+						    </div>								
+						</form>
+					</div>
+				</div>
+
+				<script type="text/javascript">
+				$(function() {
+				    var BV = new $.BigVideo({container: $('.video-wrap')});
+				    BV.init();
+				    BV.show('assets/test1.mp4',{ambient:true});
+				});
+				</script>
+			</div>
+	</div>
+
+</body>
