@@ -149,7 +149,73 @@ body{
 	padding-bottom: 0px;
 	padding-left: 0px;
 	padding-right: 0px;
-	padding-top: 0px;
+	padding-top: 20px;
+}
 
+.whatisboxit{
+	background-color: #597BDE;
+	background-image: url(../assets/sunset_window.png);
+	height: 400px;
+}
+.whatisboxit h2 {
+	font-size: 48px;
+	margin-top: 0px;
+	padding-left: 60px;
+	color: #888989;
+}
+#what_spacer {
+	height: 80px;
+}
+.whatisboxit h3 {
+	font-size: 24px;
+	padding-left: 100px;
+	color: #F0F2F2;
+	margin-bottom: 0px;
+}
+.whatisboxit p{
+	padding-left: 100px;
+	width: 500px;
+	color: #F0F2F2;
+	display: inline-block;
+}
+.whatisboxit ol{
+	display: inline-block;
+}
+@media (max-width: 975px) and (min-width: 850px){
+	#topNav li a {
+		font-size: 14px;
+	}
+}
 
+@media(max-width: 849px){
+	ul#topNav {
+		float:none;
+		padding-top: 0px
+	}
+}
+
+@media (max-width: 849px) and (min-width: 750px){
+	div.topBar{
+		height: 204px;
+	}
+	#topNav li a {
+		margin-right: 5px;
+		margin-left: 5px;
+		font-size: 14px;
+	}
+}
+
+@media (max-width: 749px){
+	div.topBar{
+		height: 204px;
+	}
+	ul#topNav{
+		width: ;
+		margin-right: 0px;
+	}
+	#topNav li a {
+		margin-right: 5px;
+		margin-left: 5px;
+		font-size: 14px;
+	}
 }
