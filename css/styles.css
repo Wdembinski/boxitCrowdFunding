@@ -297,8 +297,21 @@ body{
 .whatisboxit ol{
 	display: inline-block;
 }
+.describebox {
+	height: 40px;
+	border: 3px solid black;
+	margin: 0 0 0 0;
+	top: 0px;
+	width: 100%;
+	/*position: absolute;*/
+
+	background: url(../assets/overlay-dots.png) repeat;
+}
+.howcancontainer {
+	height: 400px;
+	background: url(../assets/cloudbackground.jpg);
+}
 .howcan {
-	/*background-color: #19407A;*/
 	height: 400px;
 	background: url(../assets/cloud_background.png);
 }
@@ -306,15 +319,16 @@ body{
 	height: 80px;
 }
 .howcan h2 {
-	/*float: right;*/
 	text-align: right;
 	font-size: 48px;
 	margin-top: 0px;
+	margin-right: 40px;
 }
 .howcan p {
 	/*display: inline-block;*/
 	float: right;
 	width: 500px;
+	margin-right: 100px;
 }
 .filter_program {
 	height:400px;
@@ -322,16 +336,39 @@ body{
 	color: white;
 }
 .filter_program h2{
-	text-align: center;
+	text-align: left;
 	font-size:48px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding:60px 80px 20px 80px;
 }
 .filter_program p{
-	padding-left: 20%;
-	padding-right: 20%;
-	width:900px;
+	padding-left: 100px;
+	width: 600px;
+	color: #F0F2F2;
+	display: inline-block;
+	margin-top: 3%;
+}
+.filter_program img {
+	float: right;
+	width: 500px;
+	padding: 50px;
+	position: absolute;
+	left: 900px;
+	top: 1450px;
 }
 #filter_spacer {
 	height: 40px;
+}
+.divider2 {
+	height: 40px;
+	border: 3px solid black;
+	margin: 0 0 0 0;
+	top: 0px;
+	width: 100%;
+	/*position: absolute;*/
+
+	background: url(../assets/overlay-dots.png) repeat;
 }
 .team {
 	background-color: #D6D6D9;
@@ -361,6 +398,9 @@ body{
 	padding-right: 2%;
 	padding-left: 2%;
 
+}
+#dwight {
+	margin-left: 80px;
 }
 *---start-footer-----*/
 .footer{
