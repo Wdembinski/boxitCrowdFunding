@@ -391,12 +391,13 @@ body{
 	width:300px;
 	height: 624px;
 	display: inline-block;
-	padding: 0% 2% 0% 2%;
+	padding: 0% 3% 0% 3%;
 	margin-left: 0% 2% 0% 2%;
 }
 .profiles p {
 	height: 112px;
 	margin: 0px;
+	font-size: 15px;
 }
 .profiles_text {
 	height: 152;
@@ -452,14 +453,15 @@ body{
 	padding-left: 2%;
 }
 *---start-footer-----*/
-.footer{
+.logo {
 	padding: 1em 0;
-	background: black;
-	font-family: 'Open Sans', sans-serif;
-	text-align: center;
-	position: relative;
 	height:32px;
 	margin-top: 4em;
+	padding: 0 1% 0 3%;
+	display: inline-block;
+}
+.footer {
+	background: url(../assets/overlay-dots.png) repeat;
 }
 .footer p{
 	color:#FFF;
@@ -470,6 +472,10 @@ body{
 }
 .footer p a:hover{
 	color:#FFF;
+}
+
+.logo {
+	padding-left: 3%;
 }
 
 @media (max-width: 975px) and (min-width: 850px){
