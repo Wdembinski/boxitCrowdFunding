@@ -271,7 +271,7 @@ body{
 	font-size: 48px;
 	margin-top: 0px;
 	padding-left: 60px;
-	color: #888989;
+	color: #333333;
 }
 #what_spacer_top {
 	background-image: url(../assets/overlay-dots.png) repeat;
@@ -285,13 +285,13 @@ body{
 .whatisboxit h3 {
 	font-size: 24px;
 	padding-left: 100px;
-	color: #F0F2F2;
+	color: #333333;
 	margin-bottom: 0px;
 }
 .whatisboxit p{
 	padding-left: 100px;
 	width: 500px;
-	color: #F0F2F2;
+	color: #333333;
 	display: inline-block;
 }
 .whatisboxit ol{
@@ -452,6 +452,10 @@ body{
 	padding-right: 2%;
 	padding-left: 2%;
 }
+.contact {
+	width: 200px;
+	color: #4C4C4C;
+}
 *---start-footer-----*/
 .logo {
 	padding: 1em 0;
@@ -473,7 +477,11 @@ body{
 .footer p a:hover{
 	color:#FFF;
 }
-
+.footer_nav {
+	display: inline-block;
+	float: right;
+	
+}
 .logo {
 	padding-left: 3%;
 }
